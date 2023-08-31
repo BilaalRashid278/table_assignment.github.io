@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Postions</title>
+    <style>
+        html {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 10px;
+        }
+
+        th {
+            text-align: start;
+            text-transform: uppercase;
+            font-weight: 600;
+            height: 50px;
+        }
+
+        table {
+            width: 80%;
+            margin: auto;
+            font-size: 1.1rem;
+            border-spacing: 0;
+        }
+
+        .th-1 {
+            width: 5%;
+            text-align: center;
+        }
+
+        .th-2 {
+            width: 30%;
+        }
+
+        .th-3 {
+            width: 20%;
+            text-align: center;
+        }
+
+        .th-4 {
+            width: 20%;
+            text-align: center;
+        }
+
+        .th-5 {
+            width: 25%;
+            text-align: end;
+            box-sizing: border-box;
+            padding-right: 20px;
+        }
+
+        .pos {
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .first-position {
+            box-sizing: border-box;
+            padding: 12px 0px;
+            font-size: 1.5rem;
+        }
+
+        .first {
+            background-color: rgb(68, 68, 229);
+            color: white;
+        }
+
+        .twin-size {
+            text-align: center;
+            font-size: 2rem;
+            font-weight: bold;
+        }
+
+        .flag-img {
+            width: 30px;
+        }
+
+        .matches {
+            text-align: center;
+        }
+
+        .points {
+            text-align: center;
+        }
+
+        .rating {
+            text-align: end;
+            padding-right: 20px;
+        }
+
+        .seconds-teams td {
+            font-size: 1.3rem;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.413);
+        }
+
+        .body-tr:hover {
+            background-color: rgb(68, 68, 229);
+            color: white;
+        }
+
+        .top-team {
+            margin-left: 12px;
+        }
+
+        @media screen and (max-width:800px) {
+            html {
+                font-size: 8px;
+            }
+        }
+
+        @media screen and (max-width:700px) {
+            html {
+                font-size: 7px;
+            }
+
+            .top-flag-country img {
+                width: 35px;
+            }
+
+            td img {
+                width: 25px;
+            }
+        }
+
+        @media screen and (max-width:500px) {
+            html {
+                font-size: 6px;
+            }
+            table{
+                width: 100%;
+            }
+            .top-team {
+                margin-left: 5px;
+            }
+            .top-flag-country img{
+                width: 30px;
+            }
+            td img{
+                width: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <thead>
+            <th class="th-1">POS</th>
+            <th class="th-2">Team</th>
+            <th class="th-3">Matches</th>
+            <th class="th-4">Points</th>
+            <th class="th-5">Rating</th>
+        </thead>
+        <tbody>
+            <tr class="first">
+                <td class="pos first-position">1</td>
+                <td style="position: relative;" class="top-flag-country">
+                    <img src="./Images/Pakistan.png" alt="">
+                    <span class="top-team"
+                        style="position: absolute; top: 34%; font-size: 1.7rem; color: rgba(255, 255, 255, 0.842);">Pakistan</span>
+                </td>
+                <td class="twin-size">35</td>
+                <td class="twin-size">3,965</td>
+                <td class="twin-size" style="text-align: end; padding-right: 20px;">113</td>
+            </tr>
+            <tr class="seconds-teams body-tr">
+                <td class="pos first-position">2</td>
+                <td style="position: relative;">
+                    <img class="flag-img" src="./Images/icons8-australia-48.png" alt="">
+                    <span style="position: absolute; top: 30%; margin-left: 8px; font-size: 1.3rem;">Australia</span>
+                </td>
+                <td class="matches">47</td>
+                <td class="points">5,294</td>
+                <td class="rating">113</td>
+            </tr>
+            <tr class="seconds-teams body-tr">
+                <td class="pos first-position">2</td>
+                <td style="position: relative;">
+                    <img class="flag-img" src="./Images/icons8-india-flag-48.png" alt="">
+                    <span style="position: absolute; top: 30%; margin-left: 8px; font-size: 1.3rem;">India</span>
+                </td>
+                <td class="matches">47</td>
+                <td class="points">5,294</td>
+                <td class="rating">113</td>
+            </tr>
+            <tr class="seconds-teams body-tr">
+                <td class="pos first-position">2</td>
+                <td style="position: relative;">
+                    <img class="flag-img" src="./Images/icons8-england-48.png" alt="">
+                    <span style="position: absolute; top: 30%; margin-left: 8px; font-size: 1.3rem;">England</span>
+                </td>
+                <td class="matches">47</td>
+                <td class="points">5,294</td>
+                <td class="rating">113</td>
+            </tr>
+            <tr class="seconds-teams body-tr">
+                <td class="pos first-position">2</td>
+                <td style="position: relative;">
+                    <img class="flag-img" src="./Images/icons8-bangladesh-flag-48.png" alt="">
+                    <span style="position: absolute; top: 30%; margin-left: 8px; font-size: 1.3rem;">Bangladesh</span>
+                </td>
+                <td class="matches">47</td>
+                <td class="points">5,294</td>
+                <td class="rating">113</td>
+            </tr>
+            <tr class="seconds-teams body-tr">
+                <td class="pos first-position">2</td>
+                <td style="position: relative;">
+                    <img class="flag-img" src="./Images/icons8-sri-lanka-48.png" alt="">
+                    <span style="position: absolute; top: 30%; margin-left: 8px; font-size: 1.3rem;">Sri Lanka</span>
+                </td>
+                <td class="matches">47</td>
+                <td class="points">5,294</td>
+                <td class="rating">113</td>
+            </tr>
+            <tr class="seconds-teams body-tr">
+                <td class="pos first-position">2</td>
+                <td style="position: relative;">
+                    <img class="flag-img" src="./Images/icons8-australia-48.png" alt="">
+                    <span style="position: absolute; top: 30%; margin-left: 8px; font-size: 1.3rem;">Australia</span>
+                </td>
+                <td class="matches">47</td>
+                <td class="points">5,294</td>
+                <td class="rating">113</td>
+            </tr>
+            <tr class="seconds-teams body-tr">
+                <td class="pos first-position">2</td>
+                <td style="position: relative;">
+                    <img class="flag-img" src="./Images/icons8-india-flag-48.png" alt="">
+                    <span style="position: absolute; top: 30%; margin-left: 8px; font-size: 1.3rem;">India</span>
+                </td>
+                <td class="matches">47</td>
+                <td class="points">5,294</td>
+                <td class="rating">113</td>
+            </tr>
+            <tr class="seconds-teams body-tr">
+                <td class="pos first-position">2</td>
+                <td style="position: relative;">
+                    <img class="flag-img" src="./Images/icons8-england-48.png" alt="">
+                    <span style="position: absolute; top: 30%; margin-left: 8px; font-size: 1.3rem;">England</span>
+                </td>
+                <td class="matches">47</td>
+                <td class="points">5,294</td>
+                <td class="rating">113</td>
+            </tr>
+            <tr class="seconds-teams body-tr">
+                <td class="pos first-position">2</td>
+                <td style="position: relative;">
+                    <img class="flag-img" src="./Images/icons8-bangladesh-flag-48.png" alt="">
+                    <span style="position: absolute; top: 30%; margin-left: 8px; font-size: 1.3rem;">Bangladesh</span>
+                </td>
+                <td class="matches">47</td>
+                <td class="points">5,294</td>
+                <td class="rating">113</td>
+            </tr>
+            <tr class="seconds-teams body-tr">
+                <td class="pos first-position">2</td>
+                <td style="position: relative;">
+                    <img class="flag-img" src="./Images/icons8-sri-lanka-48.png" alt="">
+                    <span style="position: absolute; top: 30%; margin-left: 8px; font-size: 1.3rem;">Sri Lanka</span>
+                </td>
+                <td class="matches">47</td>
+                <td class="points">5,294</td>
+                <td class="rating">113</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
